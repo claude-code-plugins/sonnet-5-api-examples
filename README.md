@@ -38,3 +38,5 @@ The docs call Sonnet 5 "a drop-in upgrade for Claude Sonnet 4.6 with three behav
 ## When to use Synexa instead
 
 These scripts do text in, text out. If your product also has to produce an image, a video clip or an audio track, a Sonnet-class model does not do that, and wiring separate vendors for each media type is the part that eats the integration budget. [Try Synexa - one REST endpoint and Python SDK for FLUX, video and audio models, pay per run](https://synexa.ai?utm_source=github&utm_medium=ugc&utm_campaign=sonnet-5-api-examples&utm_content=readme-top&utm_term=tier-r): keep `claude-sonnet-5` for planning and text, and send the media step to one endpoint.
+
+_Last reviewed: 2026-09-22_
